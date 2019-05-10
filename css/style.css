@@ -1,0 +1,898 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+}
+.carousel{
+	width: 100%;
+	z-index: -10;
+}
+.carousel-item img{
+	width: 100%;
+	height: 400px;
+}
+
+.intro{
+	width: 100%;
+	height: 350px;
+	z-index: 100;
+	background: linear-gradient(transparent,black);
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	margin-top: -400px;
+	position: relative;
+}
+
+.logo-out{
+	width: 100%;
+	height: 900px;
+	/*border: 1px solid;*/
+	z-index: 990;
+	margin: 0 auto;
+	margin-top: 0px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 40px;
+}
+.logo{
+	/*border: 1px solid white;*/
+	width: 750px;
+	height: 140px;
+	/*padding: 10px;*/
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0px;
+	left: 110px;
+}
+.logo img{
+	width: 100px;
+}
+.small{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	top: 18px;
+	left: 110px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+.mid{
+	color: white;
+	position: absolute;
+	font-size: 30px;
+	top: 40px;
+	left: 110px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+.small1{
+	top: 85px;
+}
+.bg-dark{
+	background-color: black;
+}
+.navbar{
+
+	box-shadow: 0px -1px 40px 1px;
+}
+.navbar-nav{
+	width: 98%;
+}
+.navbar-brand{
+	margin-left: 30px;
+	letter-spacing: 2px;
+	word-spacing: 6px;
+	font-size: 30px;
+	/*font-weight: bold;*/
+}
+.nav-item{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.nav-item a{
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+.dropdown-item{
+	background-color: #343a40;
+	color: #bbb;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.dropdown-menu{
+	padding-right: 10px;
+	border: none;
+	box-sizing: border-box;
+	background-color: #343a40;
+}
+.navbar-dark{
+	background-color: black;
+}
+.about{
+	width: 100%;
+	/*height: 300px;*/
+	/*border: 1px solid;*/
+	margin: 10px auto;
+	margin-bottom: 70px;
+	overflow: auto;
+}
+.abt1{
+	width: 48%;
+	min-height: 270px;
+	border: none;
+	/*border-right: 1px solid #bbb;*/
+	float: left;
+}
+.abt2{
+	width: 49%;
+	min-height: 270px;
+	/*border: 1px solid;*/
+	float: right;
+	padding-top: 10px;
+	padding-left: 20px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	line-height: 27px;
+}
+.abhd{
+	width: 80px;
+	border-bottom: 2px solid #777;
+	margin-bottom: 30px;
+	margin-left: -20px; 
+}
+.abt1 img{
+	width: 70%;
+	height: 270px;	
+	margin: 15px;
+	margin-left: 20%;
+	box-shadow: 5px 5px 20px 1px;
+}
+.jumbotron{
+	box-shadow: 3px 3px 15px 0px;
+}
+.jumbotron h1{
+	margin-left: 3%;
+}
+.jumbotron ul{
+	margin-left: 8%;
+	margin-top: 2%;
+}
+.jumbotron ul li{
+	margin-top: 10px;
+}
+.row1{
+	width: 100%;
+	min-height: 100px;
+	/*border: 1px solid;*/
+	display: flex;
+	justify-content: center;
+	/*padding-left: 30px;*/
+}
+.bigfet{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	flex-wrap: wrap;
+	/*border: 1px solid;*/
+	margin-top: 20px;
+}
+.fet{
+	width: 130px;
+	border-bottom: 3px solid #777;
+	margin-left: 60px;
+	font-size: 50px;
+}
+.features{
+	height: 200px;
+	/*border: 1px solid;*/
+	display: flex;
+	flex-direction: row;
+	margin-left: 8%;
+	margin-bottom: 5%; 
+}
+.features i{
+	text-align: center;
+	font-size: 60px;
+	color: #ccc; 
+}
+.features h2{
+	text-align: center;
+	font-size: 20px;
+	color: #555;
+	font-family: 'Lato',sans-serif;
+	margin-top: 30px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.timings{
+	width: 100%;
+	/*padding-bottom: 50px;*/
+	/*height: 750px;*/
+	/*border: 1px solid;*/
+	background: url(images/Optimized-alarm-alarm-clock-analog-714701.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	box-sizing: border-box;
+}
+.countvisit{
+	width: 100%;
+	height: 150px;
+	background-color: #222;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+.sent{
+	color: white;
+	display: block;
+	width: 100%;
+	/*border: 1px solid white;*/
+	text-align: center;
+	font-size: 50px;
+	/*font-weight: bold;*/
+	letter-spacing: 4px;
+	word-spacing: 10px;
+	/*margin-top: -10px;*/
+}
+.counter{
+	font-weight: bold;
+	font-size: 70px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.blurr{
+	width: 100%;
+	/*height: 750px;*/
+	background-color: rgba(0,0,0,0.8);
+	padding-bottom: 50px;
+	box-sizing: border-box;
+	padding-top: 50px;
+
+}
+.tmg{
+	/*display: block;*/
+	color: #eee;
+	margin-left: 50px;
+	font-size: 60px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	width: 150px;
+	border-bottom: 4px solid #bbb;
+}
+.tmgsub{
+	color: #aaa;
+	margin-left: 30%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: 'Lato',sans-serif;
+	overflow: auto;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-size: 30px;
+}
+.tmgsub span{
+	float: right;
+	margin-right: 300px;
+	color: #ddd;
+}
+.tmg1{
+	font-size: 30px;
+	border: none;
+	width: 500px;
+	margin-top: 70px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+}
+.committee{
+	width: 100%;
+	min-height: 500px;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+.com{
+	width: 180px;
+	margin-bottom: 50px;
+}
+.comt{
+	color: #555;
+	margin-left: 300px;
+	/*float: left;*/
+}
+.comt span{
+	/*float: left;*/
+	color: #777;
+	/*border: 1px solid;*/
+	width: 600px;
+	line-height: 40px;
+	text-align: left;
+	font-size: 25px;
+	/*margin-right: 500px;*/
+}
+.collection{
+	width: 100%;
+	min-height: 300px;
+	box-sizing: border-box;
+	background: url(images/Optimized-assortment-book-book-bindings-1130980.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.footer1{
+	width: 100%;
+	height:450px;
+	background-color: #343a40;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #ddd;
+	position: relative;
+}
+.ftlogo{
+	width: 60%;
+	min-height: 100px;
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.ftlogo img{
+	width: 70px;
+	height: 70px;
+}
+.ftlinks{
+	width: 20%;
+	height: 300px;
+	/*border:1px solid white;*/
+}
+.ftlinks ul{
+	margin-top: 40px;
+	margin-left: 20px;
+	list-style: none;
+	min-width: 10px;
+}
+.ftlinks ul li{
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	color: #999;
+	/*border: 1px solid;*/
+	/*width: 160px;*/
+	cursor: pointer;
+	letter-spacing: 2px;	
+	line-height: 40px;
+	transition: 0.5s ease;
+}
+.ftlinks ul li a{
+	color: #999;
+	text-decoration: none; 
+}
+
+.ftlinks ul li:hover{
+	margin-left: 10px;
+	color: white;
+	/*text-decoration: underline;*/
+}
+footer img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 130px;
+}
+footer .logo{
+	/*border: 1px solid white;*/
+	left: 25%;
+	margin: 0;
+}
+.pghead{
+	width: 100%;
+	height: 350px;
+	z-index: 100;
+	background: linear-gradient(transparent,black);
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	/*margin-top: -400px;*/
+	position: relative;
+	box-sizing: border-box;
+	background-image: url(images/business-career-confidence-776615.jpg);
+	
+	/*background-attachment: fixed;*/
+	background-size: cover;
+}
+
+.grad{
+	width: 100%;
+	height: 350px;
+	z-index: 120;
+	background: linear-gradient(transparent,black);
+}
+.staff{
+	color: white;
+	font-size: 80px;
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.staffmain{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 3%;
+	padding-top: 4%;
+	/*background-image: url(images/background-boardwalk-clouds-808465.jpg);*/
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.employee{
+	width: 20%;
+	height: 400px;
+	/*border: 5px solid white;*/
+	box-shadow: 0px 0px 20px 0px;
+	border-radius: 5px;
+	margin: 2%;
+	box-sizing: border-box;
+	background-color: rgb(245,245,245);
+}
+.employee img{
+	border: 5px solid #999;
+	border-radius: 50%;
+	width: 210px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	/*box-shadow: 0px 0px 90px -10px;*/
+}
+.employeenm{
+	/*font-weight: bold;*/
+	font-size: 25px;
+	/*border: 1px solid;*/
+	display: block;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	width: 100%;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 30px;
+}
+.post{
+	color: #444;
+	font-size: 18px;
+	/*font-weight: bolder;*/
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.qualif{
+	margin-top: 10px;
+	color: #444;
+	font-size: 14px;
+	/*font-weight: bolder;*/
+	display: block;	
+	width: 100%;
+	text-align: center;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+.tmhd{
+	background-image: url(images/Optimized-book-bindings-bookcase-books-990432.jpg);
+	/*background-size: cover; 	*/
+	}
+.Timing-main{
+	width: 100%;
+	/*height: 100vh;*/
+	box-sizing: border-box;
+	background-image: url(images/Optimized-alarm-alarm-clock-analog-714701.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/*padding-bottom: 20px;*/
+}
+.contactmain{
+	width: 100%;
+	min-height: 100vh;
+	box-sizing: border-box;
+	padding:50px;
+	padding-left: 7%;	
+	/*border: 1px solid;*/
+	overflow: auto;
+}
+.teladd{
+	/*border: 1px solid;*/
+	width: 30%;
+	min-height: 200px;
+	float: left;
+	margin: 1%;
+}
+.teladd i{
+	display: block;
+	width: 100%;
+	text-align: center;	
+	font-size: 80px;
+	color: #888;
+	margin-bottom: 50px;
+}
+.teladd span{
+	display: block;
+	width: 100%;
+	text-align: center;		
+	font-size: 20px;
+	color: #555;
+	letter-spacing: 2px;
+}
+.locat{
+	width: 100%;
+	min-height: 400px;
+	/*border: 1px solid;*/
+	margin-top: 300px;
+	overflow: auto;
+}
+.loc{
+	font-size: 60px;
+	float: left;
+	border-bottom: 4px solid;
+	display: block;
+	width: 170px;
+	margin-top: 50px;
+}
+.locat iframe{
+	width: 45%;
+	height: 400px;
+	box-shadow: 0px 3px 10px 0px;
+	border-radius: 10px;
+	margin: 50px;
+	float: left;
+}
+.locinfo{
+	width: 45%;
+	min-height: 300px;
+	/*border: 1px solid;*/
+	float: left;
+	text-align: left;
+	font-size: 25px;
+	padding-top: 50px;
+	padding-left: 60px;
+	color: #555;
+	line-height: 40px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+.contactform{
+	width: 96%;
+	margin: 0 auto;
+	min-height: 80vh;
+	border-bottom: 1px solid #ccc;
+	overflow: auto;
+}
+.contactleft{
+	width: 40%;
+	min-height: 200px;
+	/*border: 1px solid;*/
+	margin-top: 150px;
+	float: left;
+}
+.contactleft i{
+	font-size: 120px;
+	color: #aaa;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.contactleft span{
+	margin-top: 20px;
+	font-size: 30px;
+	color: #aaa;
+	display: block;
+	width: 100%;
+	text-align: center;	
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.contactright{
+	width: 53%;
+	min-height: 100px;
+	/*border: 1px solid;*/
+	float: left;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.form-group textarea{
+	min-height: 100px;
+}
+.sub{
+	width: 20%;
+	height: 50px;
+	margin-left: 40%;
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.sub:hover{
+	color: black;
+	background-color: white;
+	border: 2px solid;
+}
+.sent{
+	margin-top: 10px;
+	width: 100%;
+	min-height: 2px;
+	border: 1px solid;
+	font-size: 20px;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+#err_reg{
+	display: none;
+}
+#err_reg1{
+	display: none;
+}
+.adminhead{
+	/*border: 1px solid;*/
+	width: 100%;
+	height: 55px;
+	background-color: #444;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	letter-spacing: 4px;
+	position: fixed;
+	top: 0px;
+}
+.menleftbt{
+	width: 50px;
+	height: 50px;
+	/*border: 1px solid white;*/
+	padding: 2px;
+	float: left;
+	margin-left: 20px;
+}
+.menleftbt i{
+	color: #ccc;
+	font-size: 40px;
+	cursor: pointer;
+
+}
+.menleftbt i:hover{
+	color: white;
+}
+.adminbdyone{
+	border: 1px solid transparent;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f2f2f2;
+}
+.totalbks{
+	width: 90%;
+	height: 40vh;
+	/*border: 1px solid;*/
+	margin: 0px auto;
+	margin-top: 100px;
+	overflow-wrap: wrap;
+}
+.bk1{
+	background-color: white;
+	box-shadow: 0px 0px 10px 0px;
+	border-radius: 5px;
+}
+.bookcounts{
+	width: 44%;
+	height: 45%;
+	/*border: 1px solid;*/
+	float: left;
+	margin: 20px 40px;
+	background-color: white;
+	box-shadow: 0px 0px 10px 0px;
+	border-radius: 3px;
+}
+.dashb{
+	width: 30%;
+	height: 100vh;
+	position: fixed;
+	/*border: 1px solid;*/
+	background-color: white;
+	top: 0px;
+	box-shadow: 0px 0px 30px 0px;
+	z-index: 999;
+	left: -30%;
+}
+.lightbx{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 699;
+}
+.dashb i{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+	font-size: 30px;
+}
+.admininfo{
+	width: 95%;
+	height: 80vh;
+	/*border: 1px solid;*/
+	margin: 60px auto;
+}
+.adminicon{
+	width: 200px;
+	height: 200px;
+	border: 5px solid #aaa;
+	border-radius: 50%;
+	margin: 10px auto;
+	background-image: url(images/default_user.jpg);
+	background-size: cover;
+}
+.adminname{
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	color: #888;
+	word-spacing: 7px;
+	letter-spacing: 2px;
+}
+.admul{
+	margin-left: 10px;
+	margin-top: 40px;
+	list-style: none;
+}
+.admli{
+	padding: 10px;
+	cursor: pointer;
+	/*border: 1px solid;*/
+	font-size: 25px;
+	color: #aaa;
+	margin-top: 10px;
+}
+.admli:hover{
+	color: black;
+}
+.box{
+	width: 50%;
+	height: 60vh;
+	margin: 100px auto;
+	border: 1px solid black;
+	padding: 50px;
+}
+.adminmain{
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+}
+.admindetails{
+	width: 20%;
+	height: 80vh;
+	/*border: 1px solid;*/
+	margin: 50px;
+	float: left;
+}
+.adminprofimg{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	display: block;
+}
+.adminprofimg img{
+	width: 250px;
+	height: 250px;	
+	border: 3px solid #ccc;
+	border-radius: 6px;
+
+}
+.adminnm{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: #444;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	letter-spacing: 2px;
+}
+.list-group{
+	border-radius: 0px;
+}
+.list-group-item{
+	border-left: none;
+	border-right: none;
+	border-radius: 0px;	
+}
+.list-group-item-action{
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.list-group-item:hover{
+	cursor: pointer;
+}
+.line{
+	height: 72vh;
+	float: left;
+	width: 0px;
+	border-left: 1px solid #ccc;
+	margin-top: 80px;
+}
+.rightblock{
+	height: 80vh;
+	width: 65%;
+	float: left;
+	/*border: 1px solid;*/
+	margin: 50px;
+	background-color: #f7f7f7;
+
+}
+.mailblk{
+	overflow: auto;
+}
+.mailblk1{
+	overflow-wrap: break-word;
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 40px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	/*padding-left: 40px;*/
+}
+
+.mail{
+	height: 70px;
+	width: 96%;
+	border-bottom: 1px solid #ddd;
+	margin: 2px auto;
+	background-color: white;
+	box-sizing: border-box;
+	padding-top: 20px;
+	overflow: auto;
+	cursor: pointer;
+	position: relative;
+}
+.mail:hover{
+	background-color: #ccc;
+}
+.mailsender{
+	margin-left: 20px;
+	display: block;
+	width: 180px;
+	/*border: 1px solid;*/
+	letter-spacing: 1px;
+	float: left;
+}
+.emailsender{
+	letter-spacing: 1px;
+	float: left;
+	/*border: 1px solid;*/
+	width: 300px;
+	text-align: center;
+	/*margin-left: 18%;*/
+}
+.senddate{
+	letter-spacing: 1px;
+	float: left;
+	margin-left: 17%;
+}
+.del
+{
+	color: #777;
+	position: absolute;
+	right: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.del:hover{
+	color: black;
+}
